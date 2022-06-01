@@ -14,6 +14,8 @@ object Modules {
     val remote = ":data:remote"
     val model = ":data:model"
     val repository = ":data:repository"
+    val home = ":features:main"
+    val auth = ":features:auth"
 }
 
 object Releases {
@@ -43,7 +45,7 @@ object Versions {
     val timber = "4.7.1"
     val lifecycle = "2.2.0"
     val nav = "2.0.0"
-    val room = "2.3.0"
+    val room = "2.4.0-beta01"
     val recyclerview = "1.0.0"
     val safeArgs = "1.1.1"
     val glide = "4.12.0"
@@ -52,21 +54,26 @@ object Versions {
     val mockk = "1.11.0"
     val fragmentTest = "1.1.0-alpha06"
     val databinding = "3.3.2"
+    val paging = "3.1.0-beta01"
 }
 
 object Libraries {
     // KOIN
     val koin = "io.insert-koin:koin-android:${Versions.koin}"
     val koinViewModel = "io.insert-koin:koin-android-viewmodel:${Versions.koin}"
+
     // ROOM
     val roomCompiler = "androidx.room:room-compiler:${Versions.room}"
     val roomRunTime = "androidx.room:room-runtime:${Versions.room}"
     val roomKtx = "androidx.room:room-ktx:${Versions.room}"
+    val roomPaging = "androidx.room:room-paging:${Versions.room}"
+
     // RETROFIT
     val gson = "com.google.code.gson:gson:${Versions.gson}"
     val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit}"
     val retrofitGsonConverter = "com.squareup.retrofit2:converter-gson:${Versions.retrofitGson}"
     val httpLoggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Versions.okHttp}"
+
     // GLIDE
     val glide = "com.github.bumptech.glide:glide:${Versions.glide}"
 }
@@ -78,7 +85,9 @@ object KotlinLibraries {
 
 object AndroidLibraries {
     // KOTLIN
-    val kotlinCoroutineAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+    val kotlinCoroutineAndroid =
+        "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+
     // ANDROID
     val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
     val coreKtx = "androidx.core:core-ktx:${Versions.coreKtx}"
@@ -88,6 +97,8 @@ object AndroidLibraries {
     val recyclerView = "androidx.recyclerview:recyclerview:${Versions.recyclerview}"
     val navigation = "androidx.navigation:navigation-ui-ktx:${Versions.nav}"
     val navigationFrag = "androidx.navigation:navigation-fragment-ktx:${Versions.nav}"
+    val pagingRuntime = "androidx.paging:paging-runtime-ktx:${Versions.paging}"
+    val pagingCommon = "androidx.paging:paging-common-ktx:${Versions.paging}"
 }
 
 object TestLibraries {
@@ -98,15 +109,20 @@ object TestLibraries {
     val archCoreTest = "androidx.arch.core:core-testing:${Versions.archCoreTest}"
     val junit = "androidx.test.ext:junit:${Versions.androidJunit}"
     val fragmentNav = "androidx.fragment:fragment-testing:${Versions.fragmentTest}"
+
     // KOIN
     val koin = "io.insert-koin:koin-test:${Versions.koin}"
+
     // MOCK WEBSERVER
     val mockWebServer = "com.squareup.okhttp3:mockwebserver:${Versions.okHttp}"
+
     // MOCK
     val mockkAndroid = "io.mockk:mockk-android:${Versions.mockk}"
     val mockk = "io.mockk:mockk:${Versions.mockk}"
+
     // COROUTINE
     val coroutine = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutines}"
+
     // DATA BINDING
     val databinding = "androidx.databinding:databinding-compiler:${Versions.databinding}"
 }

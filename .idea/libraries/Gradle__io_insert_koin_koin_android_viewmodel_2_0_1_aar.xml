@@ -1,10 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: io.insert-koin:koin-android-viewmodel:2.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ee0a7e63460f4cbd2721425d37f27a6/jetified-koin-android-viewmodel-2.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f9e0affe12abd6acfafade4dee57436c/jetified-koin-android-viewmodel-2.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f9e0affe12abd6acfafade4dee57436c/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f9e0affe12abd6acfafade4dee57436c/jetified-koin-android-viewmodel-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fc50f145ab68a9c2a9a5db0c60a6ab27/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9e9825b823ed35dc734f834466d86081/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac023352fd4a783ff4739aabe362d981/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f51638bdcc6d4ee814dc0bc2e4848fcf/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c57cefa3261d21d10a9dd2844cb22990/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/db954950c443d9a04060710f03ffe451/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16c2675a5f245acc5e7ba20aa1a61fd8/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/df22807dd328f8ab56f9cadabf513fe1/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70bf353c142d3407f2f6b6454731863a/jetified-koin-android-viewmodel-2.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70bf353c142d3407f2f6b6454731863a/jetified-koin-android-viewmodel-2.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/70bf353c142d3407f2f6b6454731863a/jetified-koin-android-viewmodel-2.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-android-viewmodel/2.0.1/ccfc9ebfbc50cd3d6ac43c4d6aaa39a8575fb4a4/koin-android-viewmodel-2.0.1-javadoc.jar!/" />

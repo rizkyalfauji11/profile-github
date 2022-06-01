@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/loginFragment"
+    android:id="@+id/nav_graph_login_feature">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="id.alpha.code.auth.fragment.LoginFragment"
+        android:label="">
+        <action
+            android:id="@+id/action_pop_out_auth_feature"
+            app:popUpTo="@id/nav_graph_login_feature"/>
+
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/nav_graph_home_feature" />
+    </fragment>
+
+    <include app:graph="@navigation/nav_graph_home_feature"/>
+</navigation>

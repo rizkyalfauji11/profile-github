@@ -13,6 +13,7 @@ dependencies {
     kapt Libraries.roomCompiler
     implementation Libraries.roomRunTime
     implementation Libraries.roomKtx
+    implementation Libraries.roomPaging
     implementation AndroidLibraries.lifecycleExtensions
     // TEST MODULE
     androidTestImplementation project(Modules.commonTest)
@@ -26,4 +27,7 @@ dependencies {
     androidTestImplementation TestLibraries.junit
     androidTestImplementation TestLibraries.koin
     androidTestImplementation TestLibraries.archCoreTest
+    //ANDROID
+    implementation AndroidLibraries.pagingRuntime
+    implementation AndroidLibraries.pagingCommon
 }

@@ -1,0 +1,33 @@
+apply plugin: 'com.android.library'
+apply from: '../../android_commons.gradle'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+android {
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    // COMMON
+    implementation project(Modules.common)
+    // DATA modules
+    implementation project(Modules.local)
+    implementation project(Modules.remote)
+    implementation project(Modules.repository)
+    // NAVIGATION
+    implementation project(Modules.navigation)
+    // KOIN
+    implementation Libraries.koin
+    implementation Libraries.koinViewModel
+    // ANDROID
+    implementation AndroidLibraries.constraintLayout
+    implementation AndroidLibraries.appCompat
+    implementation AndroidLibraries.navigation
+    implementation AndroidLibraries.navigationFrag
+    implementation KotlinLibraries.kotlinCoroutineCore
+    implementation AndroidLibraries.kotlinCoroutineAndroid
+    implementation AndroidLibraries.lifecycleExtensions
+}

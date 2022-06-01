@@ -19,4 +19,11 @@ dependencies {
     testImplementation TestLibraries.junit
     testImplementation TestLibraries.koin
     testImplementation TestLibraries.mockWebServer
+
+    // ANDROID
+    implementation KotlinLibraries.kotlinCoroutineCore
+    implementation AndroidLibraries.kotlinCoroutineAndroid
+    implementation AndroidLibraries.lifecycleExtensions
+    implementation AndroidLibraries.pagingRuntime
+    implementation AndroidLibraries.pagingCommon
 }

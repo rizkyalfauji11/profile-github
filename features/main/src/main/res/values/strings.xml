@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="price_example">9,050</string>
+    <string name="name_example">AALI</string>
+    <string name="full_name_example">Astra Agro Lestari Tbk.</string>
+    <string name="changes_example">+200(+2.26%)</string>
+    <string name="price_format">%1$.2f</string>
+    <string name="price_changes_format">%1$.2f(%2$.2f%%)</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="stream">Stream</string>
+    <string name="search">Search</string>
+    <string name="chat">Chat</string>
+    <string name="portfolio">Portfolio</string>
+</resources>

@@ -1,10 +1,17 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.arch.core:core-testing:2.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2ca2641fe546c752e0a41ba501e67bc6/core-testing-2.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c15a033c4b859f10955d87e1a2d20bcf/core-testing-2.0.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c15a033c4b859f10955d87e1a2d20bcf/core-testing-2.0.0/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c15a033c4b859f10955d87e1a2d20bcf/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0279679f83253ec2ef6946959bc9ad37/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/054f9a50f65fe38feaa147e1687a0239/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/134ddaccc64a7c18fad7649bf74bfebf/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24dc90a7c7fb7cdee6cb43c367586e62/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/38e932590190a6502ba99d278320b0d2/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4262fe1717895df3d6d35031997ddf86/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e664190a63c489a3a561fc4f3bd01749/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/10b260c099cf6f5d170e049faff32164/core-testing-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ff78337ec20397e12651d86a1e3436c/core-testing-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ff78337ec20397e12651d86a1e3436c/core-testing-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ff78337ec20397e12651d86a1e3436c/core-testing-2.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

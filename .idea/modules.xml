@@ -35,6 +35,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.main.iml" filepath="$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/data/repository/Stockbit_Test.data.repository.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/Stockbit_Test.features.iml" filepath="$PROJECT_DIR$/.idea/modules/features/Stockbit_Test.features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.iml" filepath="$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/auth/Stockbit_Test.features.auth.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.main.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/features/main/Stockbit_Test.features.main.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.main.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/Stockbit_Test.navigation.main.iml" />
