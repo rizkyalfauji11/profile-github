@@ -9,17 +9,30 @@ class CryptoLocalDataSource(
     private val cryptoDao: CryptoDao,
     private val remoteKeyDao: RemoteKeyDao
 ) {
-    suspend fun getCryptoCount() = cryptoDao.count()
-    suspend fun getKeys() = remoteKeyDao.getKeys()
-    suspend fun updateKey(nextKey: Int, endOfPaginationReached: Boolean, cryptoList: List<CryptoEntity>) {
-        remoteKeyDao.insertKey(
-            RemoteKeyEntity(
-                0,
-                nextKey = nextKey,
-                isEndReached = endOfPaginationReached
-            )
-        )
-        cryptoDao.save(cryptoList)
+    suspend fun isNotEmpty(): Boolean {
+        return cryptoDao.getCrypto().isNotEmpty()
     }
+
+    suspend fun getKeys() = remoteKeyDao.getKeys()
+
+    suspend fun updateKey(
+        nextKey: Int,
+        endOfPaginationReached: Boolean,
+        cryptoList: List<CryptoEntity>
+    ) {
+        try {
+            remoteKeyDao.insert(
+                RemoteKeyEntity(
+                    0,
+                    nextKey = nextKey,
+                    isEndReached = endOfPaginationReached
+                )
+            )
+            cryptoDao.insert(cryptoList)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
     fun getCryptos() = cryptoDao.getCryptos()
 }

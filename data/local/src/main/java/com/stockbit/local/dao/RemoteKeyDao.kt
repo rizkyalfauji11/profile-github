@@ -1,17 +1,18 @@
 package com.stockbit.local.dao
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
+import com.stockbit.local.entity.CryptoEntity
 import com.stockbit.local.entity.RemoteKeyEntity
+import kotlinx.coroutines.flow.Flow
 
 @Dao
-interface RemoteKeyDao {
+abstract class RemoteKeyDao{
+    @Query("SELECT * FROM tb_remote_key")
+    abstract suspend fun getKeys(): Array<RemoteKeyEntity>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertKey(remoteKey: RemoteKeyEntity)
+    abstract suspend fun insert(data: RemoteKeyEntity)
 
-    @Query("SELECT * FROM tb_remote_key")
-    suspend fun getKeys(): List<RemoteKeyEntity>
+    @Query("DELETE FROM tb_remote_key")
+    abstract fun clear()
 }

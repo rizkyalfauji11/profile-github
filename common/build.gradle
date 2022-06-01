@@ -1,6 +1,13 @@
 apply plugin: 'com.android.library'
 apply from: '../android_commons.gradle'
 
+
+android {
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
 dependencies {
     implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.navigation

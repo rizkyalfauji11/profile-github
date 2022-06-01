@@ -6,5 +6,5 @@ data class CryptoModel(
     val fullName: String? = null,
     val lastDayChange: Double? = null,
     val lastDayPercentChange: Double? = null,
-    val symbol: String? = null
+    val price: Double? = null
 )

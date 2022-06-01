@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
 interface CryptoRepository {
-    suspend fun getCrypto(): Flow<PagingData<CryptoModel>>
+     fun getCrypto(): Flow<PagingData<CryptoModel>>
 }
 
 class CryptoRepositoryImpl(
@@ -32,7 +32,7 @@ class CryptoRepositoryImpl(
         ).flow
     }
 
-    override suspend fun getCrypto(): Flow<PagingData<CryptoModel>> {
+    override fun getCrypto(): Flow<PagingData<CryptoModel>> {
         val data = fetchCryptos().map {
             it.map { crypto ->
                 CryptoModel(
@@ -41,7 +41,7 @@ class CryptoRepositoryImpl(
                     fullName = crypto.fullName,
                     lastDayChange = crypto.lastDayChange,
                     lastDayPercentChange = crypto.lastDayPercentChange,
-                    symbol = crypto.symbol,
+                    price = crypto.price,
                 )
             }
         }

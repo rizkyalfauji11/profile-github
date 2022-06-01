@@ -1,5 +1,6 @@
 package com.stockbit.remote.source
 
+import android.util.Log
 import com.stockbit.remote.api.CryptoApiService
 import com.stockbit.remote.response.crypto.CryptoResponse
 import com.stockbit.remote.utils.ApiResponse
@@ -9,15 +10,20 @@ import com.stockbit.remote.utils.ApiResponse
  */
 class CryptoRemoteDatasource(private val apiService: CryptoApiService) {
     suspend fun fetchTopUsersAsync(page: Int, symbol: String): ApiResponse<List<CryptoResponse>?> {
-        val response = apiService.fetchCryptoAsync(page = page, symbol = symbol)
-        return if (response.isSuccessful) {
-            val cryptoList = response.body()?.data
-            if (cryptoList.isNullOrEmpty())
-                ApiResponse.Empty
-            else
-                ApiResponse.Success(cryptoList)
-        } else {
-            ApiResponse.Error(response.message())
+        return try {
+            val response = apiService.fetchCryptoAsync(page = page, symbol = symbol)
+            if (response.isSuccessful) {
+                val cryptoList = response.body()?.data
+                if (cryptoList.isNullOrEmpty())
+                    ApiResponse.Empty
+                else
+                    ApiResponse.Success(cryptoList)
+            } else {
+                ApiResponse.Error(response.message())
+            }
+        }catch (e: Exception){
+            e.printStackTrace()
+            ApiResponse.Error(e.message)
         }
     }
 }

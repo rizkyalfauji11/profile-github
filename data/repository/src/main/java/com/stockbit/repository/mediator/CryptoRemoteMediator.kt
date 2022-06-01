@@ -21,20 +21,20 @@ class CryptoRemoteMediator(
         loadType: LoadType,
         state: PagingState<Int, CryptoEntity>
     ): MediatorResult {
-        val key = when (loadType) {
-            LoadType.REFRESH -> {
-                if (localDataSource.getCryptoCount() > 0) return MediatorResult.Success(false)
-                null
-            }
-            LoadType.PREPEND -> {
-                return MediatorResult.Success(endOfPaginationReached = true)
-            }
-            LoadType.APPEND -> {
-                getKey()
-            }
-        }
-
         try {
+            val key = when (loadType) {
+                LoadType.REFRESH -> {
+                    if (localDataSource.isNotEmpty()) return MediatorResult.Success(false)
+                    null
+                }
+                LoadType.PREPEND -> {
+                    return MediatorResult.Success(endOfPaginationReached = true)
+                }
+                LoadType.APPEND -> {
+                    getKey()
+                }
+            }
+
             if (key != null) {
                 if (key.isEndReached) return MediatorResult.Success(endOfPaginationReached = true)
             }
@@ -49,7 +49,7 @@ class CryptoRemoteMediator(
                             fullName = it.coinInfo?.fullName,
                             lastDayChange = it.display?.currency?.lastDayChange,
                             lastDayPercentChange = it.display?.currency?.lastDayPercentChange,
-                            symbol = it.display?.currency?.symbol
+                            price = it.display?.currency?.price
                         )
                     }
                     val endOfPaginationReached =

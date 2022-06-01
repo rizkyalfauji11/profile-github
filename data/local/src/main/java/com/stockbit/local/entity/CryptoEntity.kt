@@ -22,6 +22,6 @@ data class CryptoEntity(
     @ColumnInfo(name = "last_day_percent_change")
     val lastDayPercentChange: Double? = null,
 
-    @ColumnInfo(name = "symbol")
-    val symbol: String? = null
+    @ColumnInfo(name = "price")
+    val price: Double? = null
 )

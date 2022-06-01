@@ -6,7 +6,7 @@ android {
         applicationId ApplicationId.id
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    dataBinding {
+    viewBinding {
         enabled true
     }
 }
@@ -28,4 +28,8 @@ dependencies {
     implementation AndroidLibraries.appCompat
     implementation AndroidLibraries.navigation
     implementation AndroidLibraries.navigationFrag
+
+    // FEATURES
+    implementation project(Modules.home)
+    implementation project(Modules.auth)
 }

@@ -14,6 +14,8 @@ object Modules {
     val remote = ":data:remote"
     val model = ":data:model"
     val repository = ":data:repository"
+    val home = ":features:main"
+    val auth = ":features:auth"
 }
 
 object Releases {
@@ -43,7 +45,7 @@ object Versions {
     val timber = "4.7.1"
     val lifecycle = "2.2.0"
     val nav = "2.0.0"
-    val room = "2.3.0"
+    val room = "2.4.0-beta01"
     val recyclerview = "1.0.0"
     val safeArgs = "1.1.1"
     val glide = "4.12.0"
@@ -52,7 +54,7 @@ object Versions {
     val mockk = "1.11.0"
     val fragmentTest = "1.1.0-alpha06"
     val databinding = "3.3.2"
-    val paging = "3.0.1"
+    val paging = "3.1.0-beta01"
 }
 
 object Libraries {
@@ -64,6 +66,7 @@ object Libraries {
     val roomCompiler = "androidx.room:room-compiler:${Versions.room}"
     val roomRunTime = "androidx.room:room-runtime:${Versions.room}"
     val roomKtx = "androidx.room:room-ktx:${Versions.room}"
+    val roomPaging = "androidx.room:room-paging:${Versions.room}"
 
     // RETROFIT
     val gson = "com.google.code.gson:gson:${Versions.gson}"

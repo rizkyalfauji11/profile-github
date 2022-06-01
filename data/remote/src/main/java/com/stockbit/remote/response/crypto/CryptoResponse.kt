@@ -5,16 +5,16 @@ import com.google.gson.annotations.SerializedName
 data class CryptoResponse(
     @SerializedName("CoinInfo")
     val coinInfo: CoinInfoResponse? = null,
-    @SerializedName("DISPLAY")
+    @SerializedName("RAW")
     val display: DisplayResponse? = null,
 )
 
 data class CoinInfoResponse(
     @SerializedName("Id")
-    val name: String? = null,
+    val id: String? = null,
 
     @SerializedName("Name")
-    val id: String? = null,
+    val name: String? = null,
 
     @SerializedName("FullName")
     val fullName: String? = null
@@ -33,5 +33,5 @@ data class CurrencyResponse(
     val lastDayPercentChange: Double? = null,
 
     @SerializedName("PRICE")
-    val symbol: String? = null
+    val price: Double? = null
 )

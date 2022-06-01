@@ -8,9 +8,8 @@
         </compilerSettings>
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../../data/model/build/tmp/kotlin-classes/debugAndroidTest" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/25dd3d7836d0b71e2b6cf564c9276f7e/jetified-kotlin-stdlib-jdk7-1.5.10.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/ccb61f54b1b78d6fb9f3387d64c92aa5/jetified-kotlin-stdlib-1.5.10.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/ca09ccd722452d8cc37cd4aedc9c0766/jetified-annotations-13.0.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/ae453998ddce082c8281afc569f5d7e7/jetified-kotlin-stdlib-common-1.5.10.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/afb08b19f4bf786d6e555d3724a2bc72/jetified-gson-2.8.5.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/d4a4ceab36994ceb18f50aea54aefe61/room-runtime-2.3.0-api.jar;C:/Users/rizky/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.3.0/11e5b5194cb53b2c5ebfa57710a1a74c67cb3335/room-common-2.3.0.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/4305c653be937ffb2405eddd8d7e322a/sqlite-framework-2.1.0-api.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/6ba009924bc6e9271d51f4dc2cd859e5/sqlite-2.1.0-api.jar;C:/Users/rizky/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar;C:/Users/rizky/AndroidStudioProjects/Stockbit Test/data/model/build/intermediates/compile_library_classes_jar/debug/classes.jar;C:/Users/rizky/AppData/Local/Android/Sdk/platforms/android-30/android.jar;C:/Users/rizky/AppData/Local/Android/Sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/16946467c93b01dbfbe9a2d04b3310da/jetified-kotlin-stdlib-jdk7-1.5.10.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/f0c43594cd4ce5f378d128ebe5d58a54/jetified-kotlin-stdlib-1.5.10.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/272687c14921ce4dc262ebc051f89236/jetified-annotations-13.0.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/f683201c323cf349d31b6c6a11c1fd65/jetified-kotlin-stdlib-common-1.5.10.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/ff0cd785b4c5dfa1fa12d973731d2680/jetified-gson-2.8.5.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/097806b0901293b446c26bb7689f80e1/room-runtime-2.4.0-beta01-api.jar;C:/Users/rizky/.gradle/caches/modules-2/files-2.1/androidx.room/room-common/2.4.0-beta01/63d9f9cb245ee9b4c8ebb8aca201661f99583ffa/room-common-2.4.0-beta01.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/5e9c44b23bdd92d424d449d89dd39d46/sqlite-framework-2.2.0-beta01-api.jar;C:/Users/rizky/.gradle/caches/transforms-2/files-2.1/96a090c15b27b7a7642dcde3114d9bdc/sqlite-2.2.0-beta01-api.jar;C:/Users/rizky/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar;C:/Users/rizky/AndroidStudioProjects/Stockbit Test/data/model/build/intermediates/compile_library_classes_jar/debug/classes.jar;C:/Users/rizky/AppData/Local/Android/Sdk/platforms/android-30/android.jar;C:/Users/rizky/AppData/Local/Android/Sdk/build-tools/29.0.2/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
-          <option name="noReflect" value="true" />
           <option name="moduleName" value="model_debug" />
           <option name="friendPaths">
             <array>
@@ -20,21 +19,22 @@
               <option value="$MODULE_DIR$/../../../../data/model/build/intermediates/compile_library_classes_jar/debug/classes.jar" />
             </array>
           </option>
-          <option name="languageVersion" value="1.5" />
+          <option name="languageVersion" value="1.6" />
           <option name="apiVersion" value="1.5" />
           <option name="pluginOptions">
             <array />
           </option>
           <option name="pluginClasspaths">
             <array>
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.5.10/9c35134a025cab7a1e6eee0d87d241c2f30c1218/kotlin-compiler-embeddable-1.5.10.jar" />
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.5.10/d06ad33b62b041dae0609f830c3b48135d53b8bc/kotlin-daemon-embeddable-1.5.10.jar" />
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.10/d6c70f3c0df2457ea0095c61c1fc1188017dc3bc/kotlin-reflect-1.5.10.jar" />
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.5.10/69bad0ece91b0797055aeadbd44dc742c458398b/kotlin-script-runtime-1.5.10.jar" />
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.5.10/6b84d926e28493be69daf673e40076f89492ef7/kotlin-stdlib-common-1.5.10.jar" />
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.5.10/da6a904b132f0402fa4d79169a3c1770598d4702/kotlin-stdlib-1.5.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.6.21/97bdd5a752ce73b58ef16c17bc7f0ea2faff7a2e/kotlin-compiler-embeddable-1.6.21.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.21/5dc3574d9b7bebfcb4ec6b10ada4aaa9e140bd0b/kotlin-reflect-1.6.21.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.21/11ef67f1900634fd951bad28c53ec957fabbe5b8/kotlin-stdlib-1.6.21.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.21/5e5b55c26dbc80372a920aef60eb774b714559b8/kotlin-stdlib-common-1.6.21.jar" />
               <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.6.21/99c6675100da5d6d5b1c5a1032f27f28008d101b/kotlin-script-runtime-1.6.21.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.6.21/46b78cf392e1c4f10854c3cadba44abb7b82250f/kotlin-daemon-embeddable-1.6.21.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20200330/3afb14d5f9ceb459d724e907a21145e8ff394f02/trove4j-1.0.20200330.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.6.0/330f2244e9030119ab3030fc3fededc86713d9cc/jna-5.6.0.jar" />
             </array>
           </option>
           <option name="errors">
@@ -79,11 +79,11 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.room:room-common:2.3.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.room:room-common:2.4.0-beta01" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation:1.1.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.room:room-runtime:2.3.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.sqlite:sqlite-framework:2.1.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.sqlite:sqlite:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.room:room-runtime:2.4.0-beta01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.sqlite:sqlite-framework:2.2.0-beta01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.sqlite:sqlite:2.2.0-beta01@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="Stockbit_Test.data.model.main" />
 </module>

@@ -7,11 +7,9 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface CryptoApiService {
-
     @GET("data/top/totaltoptiervolfull")
     suspend fun fetchCryptoAsync(
         @Query("tsym") symbol: String = "IDR",
         @Query("page") page: Int = 1
     ): Response<BaseResponse<List<CryptoResponse>?>>
-
 }

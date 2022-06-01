@@ -11,7 +11,11 @@ import com.stockbit.local.dao.RemoteKeyDao
 import com.stockbit.local.entity.CryptoEntity
 import com.stockbit.local.entity.RemoteKeyEntity
 
-@Database(entities = [CryptoEntity::class, RemoteKeyEntity::class], version = 1, exportSchema = false)
+@Database(
+    entities = [CryptoEntity::class, RemoteKeyEntity::class],
+    version = 1,
+    exportSchema = false
+)
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
 
@@ -21,7 +25,10 @@ abstract class AppDatabase : RoomDatabase() {
     companion object {
 
         fun buildDatabase(context: Context) =
-            Room.databaseBuilder(context.applicationContext, AppDatabase::class.java, "App.db")
+            Room.databaseBuilder(
+                context.applicationContext,
+                AppDatabase::class.java, "App.db"
+            )
                 .build()
     }
 }
