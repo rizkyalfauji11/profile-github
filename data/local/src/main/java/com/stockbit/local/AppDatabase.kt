@@ -6,15 +6,17 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.stockbit.local.converter.Converters
-import com.stockbit.local.dao.ExampleDao
-import com.stockbit.model.ExampleModel
+import com.stockbit.local.dao.CryptoDao
+import com.stockbit.local.dao.RemoteKeyDao
+import com.stockbit.local.entity.CryptoEntity
+import com.stockbit.local.entity.RemoteKeyEntity
 
-@Database(entities = [ExampleModel::class], version = 1, exportSchema = false)
+@Database(entities = [CryptoEntity::class, RemoteKeyEntity::class], version = 1, exportSchema = false)
 @TypeConverters(Converters::class)
-abstract class AppDatabase: RoomDatabase() {
+abstract class AppDatabase : RoomDatabase() {
 
-    // DAO
-    abstract fun exampleDao(): ExampleDao
+    abstract fun cryptoDao(): CryptoDao
+    abstract fun remoteKeyDao(): RemoteKeyDao
 
     companion object {
 
