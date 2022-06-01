@@ -34,7 +34,7 @@ class CryptoListAdapter :
         fun bind(item: CryptoModel?) {
             val resource = binding.root.context.resources
             binding.tvName.text = item?.name
-            binding.tvPrice.text = item?.price?.toString()
+            binding.tvPrice.text = String.format(resource.getString(R.string.price_format),item?.price)
             binding.tvFullName.text = item?.fullName
             binding.tvChanges.text = String.format(
                 resource.getString(R.string.price_changes_format),

@@ -11,10 +11,24 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/pie_chart/baseline_pie_chart_24.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_facebook" />
+                            <entry key="outputName" value="ic_pie_chart" />
                             <entry key="sourceFile" value="C:\Users\rizky\Downloads\3225194_app_facebook_logo_media_popular_icon.svg" />
                           </map>
                         </option>
