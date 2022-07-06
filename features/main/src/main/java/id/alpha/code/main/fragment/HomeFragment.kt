@@ -7,8 +7,8 @@ import androidx.lifecycle.lifecycleScope
 import androidx.paging.LoadState
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.stockbit.common.base.BaseFragment
-import com.stockbit.common.base.BaseViewModel
+import com.alpha.common.base.BaseFragment
+import com.alpha.common.base.BaseViewModel
 import id.alpha.code.main.adapter.CryptoListAdapter
 import id.alpha.code.main.databinding.FragmentHomeBinding
 import kotlinx.coroutines.flow.collect

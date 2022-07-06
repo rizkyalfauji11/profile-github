@@ -6,11 +6,10 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.stockbit.common.base.BaseFragment
-import com.stockbit.common.base.BaseViewModel
+import com.alpha.common.base.BaseFragment
+import com.alpha.common.base.BaseViewModel
 import id.alpha.code.auth.R
 import id.alpha.code.auth.databinding.FragmentLoginBinding
-import org.koin.android.ext.android.bind
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class LoginFragment : BaseFragment<FragmentLoginBinding>() {

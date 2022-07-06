@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.stockbit.model.CryptoModel
+import com.alpha.model.CryptoModel
 import id.alpha.code.main.R
 import id.alpha.code.main.databinding.ItemCryptoLayoutBinding
 

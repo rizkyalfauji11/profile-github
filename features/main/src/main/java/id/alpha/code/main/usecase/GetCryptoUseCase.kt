@@ -1,6 +1,6 @@
 package id.alpha.code.main.usecase
 
-import com.stockbit.repository.CryptoRepository
+import com.alpha.repository.CryptoRepository
 
 class GetCryptoUseCase constructor(
     private val repository: CryptoRepository
